@@ -1,0 +1,13 @@
+/*  src/Title.css  */
+.Title {
+  box-sizing: border-box;
+  box-shadow: -1px 11px 6px -11px rgb(0 0 0 / 75%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #7f5698;
+  color: #fff;
+}

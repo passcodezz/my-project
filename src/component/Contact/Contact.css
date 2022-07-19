@@ -1,0 +1,154 @@
+.Contact .left {
+  width: 36%;
+}
+.Contact .right {
+  width: 50%;
+}
+.Contact .imgs {
+  width: 100%;
+  padding: 5px;
+}
+.Contact .box {
+  padding: 30px;
+}
+.Contact .details h1 {
+  margin: 20px 0 20px 0;
+  font-size: 35px;
+}
+.Contact .details p {
+  font-size: 17px;
+}
+.Contact .button {
+  margin-top: 20px;
+}
+.Contact button {
+  margin-right: 20px;
+}
+
+
+.Contact .right {
+  padding: 35px;
+}
+.Contact .input span {
+  font-size: 13px;
+}
+.Contact input {
+  margin-top: 10px;
+}
+/* .Contact .right button {
+  width: 100%;
+  color: #7f5698;
+}
+.Contact .right button:hover {
+  color: white;
+}
+.Contact .right button i {
+  margin-left: 10px;
+} */
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+/* .Contact .left {
+  margin-right: 10%;
+}
+.Contacts .right {
+  width: 50%;
+  position: relative;
+} */
+.Contact .right_img {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+  height: 580px;
+  width: 510px;
+  margin-top: 10%;
+}
+.Contact .right_img img {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 510px;
+}
+@media (max-width: 1200px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+/* .Contact .left {
+  margin-right: 10%;
+}
+.Contacts .right {
+  width: 50%;
+  position: relative;
+} */
+.Contact .right_img {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+  height: 580px;
+  width: 510px;
+  margin-top: 20%;
+}
+.Contact .right_img img {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 510px;
+}
+@media (max-width: 1920px) {
+  .Contact .right,
+  .Contact .left {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .Contact .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .Contact .right_img {
+    width: 100%;
+    height: 54vh;
+  }
+  .Contact .imgs {
+    width: 60%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Contact .right,
+  .Contact .left {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .Contact .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+ 
+  .Contact img {
+    width: 60%;
+    height: 100%;
+  }
+  .Contact .imgs {
+    width: 100%;
+    height: 100%;
+    padding-left: auto;
+  }
+}
